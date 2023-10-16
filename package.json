@@ -108,5 +108,9 @@
   },
   "ember": {
     "edition": "octane"
+  },
+  "dependencies": {
+    "@tensorflow-models/coco-ssd": "^2.2.3",
+    "@tensorflow/tfjs": "^4.11.0"
   }
 }

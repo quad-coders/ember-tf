@@ -1,0 +1,7 @@
+{{#if this.canLoadCamera}}
+  <div {{this.cameraContainerMod}} class="camView">
+    <video {{this.accessCameraMod}} autoplay width="640" height="480">
+      <track src="" kind="captions" label="English" default />
+    </video>
+  </div>
+{{/if}}
